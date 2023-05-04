@@ -1,0 +1,8 @@
+[2023-05-01 18:57:29,739] ERROR [by.kozlov.utils.HibernateUtil: 19] Initial SessionFactory creation failed. org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [by.kozlov.entity.User]
+[2023-05-01 18:58:02,882] ERROR [by.kozlov.utils.HibernateUtil: 19] Initial SessionFactory creation failed. org.hibernate.MappingException: Could not determine type for: by.kozlov.entity.Course, at table: students, for columns: [org.hibernate.mapping.Column(course)]
+[2023-05-01 19:38:36,213] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "students_email_key"
+  Подробности: Ключ "(email)=(killer@tut.by)" уже существует.
+[2023-05-01 19:44:02,247] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "students_email_key"
+  Подробности: Ключ "(email)=(killer@tut.by)" уже существует.
+[2023-05-01 19:44:41,169] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: столбец "averagecost" в таблице "student_profile" не существует
+  Позиция: 37
